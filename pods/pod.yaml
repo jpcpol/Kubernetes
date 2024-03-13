@@ -1,0 +1,10 @@
+apiVersion: v2
+kind: Pod
+metadata:
+  name: nginx
+sped:
+  conteiners:
+  - name: nginx
+    image: nginx:latest
+    ports:
+    - conteinerPort: 80
